@@ -1,0 +1,127 @@
+.store-button img{
+	width: 166px;
+}
+
+.info-section{
+	background-color: #fbaf3f;
+}
+
+.navbar-fixed {
+	position: absolute;
+}
+.navbar-fixed nav {
+	background-color: #fbaf3f;
+	-webkit-box-shadow:none;
+	box-shadow: none;
+	font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif
+}
+nav img{
+	height: 56px;
+}
+nav ul a.active span{
+	border-bottom: 3px solid #ffffff;
+}
+.sidenav{
+	background-color: #fbaf3f;
+}
+.sidenav li>a{
+	color: #ffffff;
+}
+.sidenav li>a.active{
+	background-color: #eea63c;
+}
+
+.logo img{
+	float:left;
+}
+.logo span{
+	font-size: 18px;
+	font-weight: 600;
+	float: left;
+}
+
+.section{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.landing-section{
+	color: #fafafa;
+	background-color: #fbaf3f;
+}
+
+.landing-section p {
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+.features-section{
+	color:#353535;
+}
+
+.features-section h2{
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.features-section h3{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.features-section p{
+	font-size: 18px;
+	color: #5e5e5e;
+}
+.screenshot-section{
+	background-color: #f7f7f7;
+}
+.screenshot-section img{
+/*	width: auto;
+	max-height: 500px;*/
+}
+footer{
+	border-color: #303030;
+	background-color: #262626;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+footer h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+footer p{
+	font-size: 16px;
+	line-height: 1.7;
+}
+footer .column{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer-bottom{
+	background-color: #222222;
+	color: #999999;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-bottom .row{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+@media only screen and (min-width: 601px){
+	nav img{
+		height: 64px;
+	}
+
+
+	.section{
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+
+	footer .section{
+		padding-bottom: 82px;
+	}
+}
