@@ -1,6 +1,10 @@
 $(function(){
 	$('.sidenav').sidenav();
 	$('.scrollspy').scrollSpy();
-	$('.carousel').carousel({fullWidth:true,indicators:true,dist:0});
-
-})
+	var initCarousel=function(element) {$(element).carousel({fullWidth:true,indicators:true,dist:0});}
+	$('.carousel img:first').each(function(){
+		var element=this.closest('.carousel');
+		if(this.complete) initCarousel(element);
+		else $(this).on('load',function(){initCarousel(element);});
+	});
+});
